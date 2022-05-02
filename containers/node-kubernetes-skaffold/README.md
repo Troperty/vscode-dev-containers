@@ -1,4 +1,4 @@
-# Kubernetes - Local Configuration
+# Kubernetes MINUS HELM & MINIKUBE!!! - Local Configuration
 
 ## Summary
 
