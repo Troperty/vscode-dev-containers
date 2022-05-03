@@ -6,7 +6,7 @@
 
 | Metadata | Value |  
 |----------|-------|
-| *Contributors* | The VS Code team and Phetsinorath William |
+| *Contributors* | The VS Code team and Phetsinorath William, Michael Mrazek from ST |
 | *Categories* | Other |
 | *Definition type* | Dockerfile |
 | *Works in Codespaces* | No |
