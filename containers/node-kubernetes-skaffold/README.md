@@ -1,4 +1,4 @@
-# A VSCode devcontainer with docker cli, kubectl, skaffold etc
+# A VSCode devcontainer with node/js, docker cli, kubectl, skaffold etc
 # NOTE!!! This is just a mashup of some of the other containers in this cloned repo!!! So the README below is the same as one of the originals.
 As the ST devcontainer needs mature, we might create a proper README customized for our needs. Some of the scripts under /library-scripts have been truncated so as to remove Helm and minikube so the names of the scripts might be a bit misleading at present. But as with any container you run, read the source so you know what you run... :)
 
