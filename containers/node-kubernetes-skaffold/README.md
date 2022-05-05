@@ -1,5 +1,13 @@
-# Kubernetes MINUS HELM & MINIKUBE!!! - Local Configuration
+# A VSCode devcontainer with docker cli, kubectl, skaffold etc
+# NOTE!!! This is just a mashup of some of the other containers in this cloned repo!!! So the README below is the same as one of the originals.
+As the ST devcontainer needs mature, we might create a proper README customized for our needs. Some of the scripts under /library-scripts have been truncated so as to remove Helm and minikube so the names of the scripts might be a bit misleading at present. But as with any container you run, read the source so you know what you run... :)
 
+### Please help out with the devcontainer!!!
+The idea is to collaborate and offer a one-click experience for onboarding new devs, so as we mature as a dev org and as our needs change we will need to update this and other devcontainers too. Normally you'd actually have the .devcontainer commited to git in each project but we'll start here for now and let this brew for a while before forcing this on devs via git commit. The devcontainer(s) will be an everlasting Work-in-Progress just like your local dev env is. The only difference is that we can all be (somewhat) certain that we're running the same versions of all tools in our toolchain etc.
+
+See the related post on confluence [here](https://troperty.atlassian.net/wiki/spaces/NP/pages/3341123597/.devcontainer)
+
+# README FROM THE ORIGINAL DEVCONTAINER BELOW
 ## Summary
 
 *Access a local (or remote) Kubernetes cluster from inside a dev container using your local config. Includes kubectl and the Docker CLI.*
