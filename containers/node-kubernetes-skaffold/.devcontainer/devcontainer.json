@@ -7,6 +7,15 @@
 		"SYNC_LOCALHOST_KUBECONFIG": "true"
 	},
 
+	"containerEnv": {
+		// Propagate your your own personal GitHub Personal Access Token (PAT) into the devcontainer so that it
+		// can be reused in skaffold, yarn etc. Needed for downloading private npm packages from yarn.
+		// Note, in order for this to work, VSCode needs to be started with your PAT exported as an env variable GITHUB_TOKEN
+		// on your host os (macOS/Windows). Either do this explicitly (export GITHUB_TOKEN=<your PAT>) and then start VSCode or
+		// add the PAT exporting to your .bashrc or equivalent so that it is always present in the global env variable GITHUB_TOKEN.
+		"GITHUB_TOKEN": "${localEnv:GITHUB_TOKEN}"
+   	},
+
 	"mounts": [
 		"source=/var/run/docker.sock,target=/var/run/docker-host.sock,type=bind",
 		"source=${env:HOME}${env:USERPROFILE}/.kube,target=/usr/local/share/kube-localhost,type=bind"
